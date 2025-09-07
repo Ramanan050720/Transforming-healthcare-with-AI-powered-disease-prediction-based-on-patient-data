@@ -12,7 +12,9 @@ It includes Exploratory Data Analysis (EDA) and a Gradio web interface for easy 
 
 ## 📂 Project Structure
 - `data/diseases.csv` → Dataset  
-- `app.py` → train and run the model
+- `eda.py` → Run data analysis & plots  
+- `model.py` → Train and save ML model  
+- `app.py` → Run Gradio web interface  
 
 ## ▶️ Run
 ```bash
