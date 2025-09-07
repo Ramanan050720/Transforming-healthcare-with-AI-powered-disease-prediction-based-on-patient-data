@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load Data
-df = pd.read_csv("data/diseases.csv", encoding="latin-1")
+df = pd.read_csv("dataset.csv", encoding="latin-1")
 df = df.drop_duplicates()
 df.columns = df.columns.str.lower()
 df = df.dropna()
