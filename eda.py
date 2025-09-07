@@ -1,3 +1,8 @@
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 # Load Data
 df = pd.read_csv("data/diseases.csv", encoding="latin-1")
 df = df.drop_duplicates()
